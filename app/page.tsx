@@ -73,7 +73,7 @@ export default function Portfolio() {
             <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center text-white text-4xl font-bold">
               <div className="w-full  h-full rounded-full overflow-hidden bg-white">
                <Avatar className="w-32 h-32 mx-auto mb-6 ring-2 ring-offset-2 ring-blue-500/40">
-                <AvatarImage src="/profile.jpg" alt="Siddhartha Timalsina" />
+                <AvatarImage src="/image/profile.jpg" alt="Siddhartha Timalsina" />
                 <AvatarFallback className="text-3xl font-bold">ST</AvatarFallback>
               </Avatar>
 
