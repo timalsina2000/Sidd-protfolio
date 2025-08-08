@@ -22,6 +22,7 @@ import {
   Download,
 } from "lucide-react";
 
+
 export default function Portfolio() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
@@ -73,7 +74,11 @@ export default function Portfolio() {
             <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center text-white text-4xl font-bold">
               <div className="w-full  h-full rounded-full overflow-hidden bg-white">
                <Avatar className="w-32 h-32 mx-auto mb-6 ring-2 ring-offset-2 ring-blue-500/40">
-                <AvatarImage src="/image/profile.jpg" alt="Siddhartha Timalsina" />
+                  <img
+                  src="/images/profile.jpg"
+                  alt="Siddhartha Timalsina"
+                  className="w-32 h-32 object-cover rounded-full"
+                />
                 <AvatarFallback className="text-3xl font-bold">ST</AvatarFallback>
               </Avatar>
 
