@@ -75,7 +75,7 @@ export default function Portfolio() {
               <div className="w-full  h-full rounded-full overflow-hidden bg-white">
                <Avatar className="w-32 h-32 mx-auto mb-6 ring-2 ring-offset-2 ring-blue-500/40">
                   <img
-                  src="/images/profile.jpg"
+                  src="./image/Profile.JPG"
                   alt="Siddhartha Timalsina"
                   className="w-32 h-32 object-cover rounded-full"
                 />
