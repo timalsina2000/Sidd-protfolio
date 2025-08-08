@@ -29,7 +29,7 @@ export default function Portfolio() {
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b">
         <div className="container mx-auto px-4 py-4">
           <nav className="flex justify-between items-center">
-            <h1 className="text-2xl font-bold text-slate-800">ST</h1>
+            <h1 className="text-2xl font-bold text-slate-800">SIDD</h1>
             <div className="hidden md:flex space-x-6">
               <a
                 href="#about"
