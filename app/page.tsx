@@ -166,7 +166,7 @@ export default function Portfolio() {
                   <div>
                     <CardTitle className="text-xl">Full-Stack Developer</CardTitle>
                     <CardDescription className="text-lg font-medium text-blue-600">
-                      Techyatra Labs • Kaushaltar, Bhaktapur
+                      Techyatra Labs • Shantinagar, Kathmandu
                     </CardDescription>
                   </div>
                   <Badge variant="outline">Jan 2025 – Present</Badge>
@@ -227,7 +227,7 @@ export default function Portfolio() {
                   <div>
                     <CardTitle className="text-xl">Intern</CardTitle>
                     <CardDescription className="text-lg font-medium text-blue-600">
-                      Sarbatra Inc. • Shantinagar, Kathmandu
+                      Sarbatra Inc. • Kaushaltar, Bhaktapur
                     </CardDescription>
                   </div>
                   <Badge variant="outline">May 2024 – Aug 2024</Badge>
