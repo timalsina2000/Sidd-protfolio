@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <style>{`
 html {
@@ -25,7 +25,9 @@ html {
 }
         `}</style>
       </head>
-      <body>{children}</body>
+      <body className="antialiased min-h-screen bg-background text-foreground transition-colors duration-300">
+        {children}
+      </body>
     </html>
   )
 }
